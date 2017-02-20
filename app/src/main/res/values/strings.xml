@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Rails Issue Pro</string>
+    <string name="button_close">Close</string>
+    <string name="error">Network error to fetch data!</string>
+    <string name="setting">Setting</string>
+    <string name="comment_title">User Comment</string>
+    <string name="no_comment">No comments for this issue!</string>
+</resources>
