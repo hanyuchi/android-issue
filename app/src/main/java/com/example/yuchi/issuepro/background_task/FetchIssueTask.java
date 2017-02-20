@@ -99,7 +99,6 @@ public class FetchIssueTask extends AsyncTask<String, Void, Response> {
                 String title = jsonObject.getString("title");
                 String body = jsonObject.getString("body");
                 String updatedAt = jsonObject.getString("updated_at");
-                int numOfComment = jsonObject.getInt("comments");
                 int issueId = jsonObject.getInt("number");
 
                 SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss'Z'");

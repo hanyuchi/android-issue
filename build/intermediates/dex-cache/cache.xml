@@ -3,24 +3,6 @@
 
     <item
         is-multidex="true"
-        jar="/Users/yuchi/Desktop/android-issue/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="59a3f36b99a7097bab1e5dfc03389d4ffd21a901">
-        <dex dex="/Users/yuchi/Desktop/android-issue/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_654f4ca0727cbdaeae3779f8ee4a6a764ffb8327/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/yuchi/Desktop/android-issue/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="e096a5d8343cc9c5a9f6eded36bd0f4c82f8c83e">
-        <dex dex="/Users/yuchi/Desktop/android-issue/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-24.1.0_cddc437177969a77c23955f3cb9ec7e5fd8884e0/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="/Users/yuchi/Desktop/android-issue/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
@@ -35,142 +17,7 @@
         optimize="true"
         revision="25.0.2"
         sha1="8a23146e1a8c7cb4758e3d3f62449213f1e51f67">
-        <dex dex="/Users/yuchi/Desktop/IssuePro/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-24.1.0_540f2d6879342a59f8b3e775fa37f278c3a0f3db/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/yuchi/Desktop/IssuePro/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/24.1.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="4157816e81f0820983957687e9a6f4c1cea0f1e5">
-        <dex dex="/Users/yuchi/Desktop/IssuePro/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-24.1.0_25ad6bd2944e7c639de824c671fca4c9fe53dabb/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/yuchi/Desktop/android-issue/app/build/intermediates/exploded-aar/com.android.support/design/24.1.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="8620c018c108eed501bbdb85324b79136373ea44">
-        <dex dex="/Users/yuchi/Desktop/android-issue/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-24.1.0_16b2ee442a4474765b3f1beab5c6857eb7036aeb/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/yuchi/Desktop/IssuePro/app/build/intermediates/exploded-aar/com.android.support/design/24.1.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="8620c018c108eed501bbdb85324b79136373ea44">
-        <dex dex="/Users/yuchi/Desktop/IssuePro/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-24.1.0_08cbef780ae71faa0891e15584c1b747010722a4/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/yuchi/Desktop/android-issue/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="9870eda5a7259fe15a6393a1260a10b151f1abd0">
-        <dex dex="/Users/yuchi/Desktop/android-issue/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_a86fb8e6b2f32c66e6f7f4802bbb3937fe9f9ce7/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/yuchi/Desktop/IssuePro/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.0/jars/libs/internal_impl-24.1.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="8c7087216946c546f85a1242a2794c0f271e092c">
-        <dex dex="/Users/yuchi/Desktop/IssuePro/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.1.0_0b13795219b2c63a60196046f7b28c05ac5a3b00/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/yuchi/Desktop/android-issue/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.1.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="8c854b30eca6c442fe842e66cd3b58c5dd08996f">
-        <dex dex="/Users/yuchi/Desktop/android-issue/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-24.1.0_b43b30252cd1cb87512666f736d7a5c03ab0df60/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/yuchi/Desktop/IssuePro/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="0fabca2c7547e760495da05da61dd4882fcd7a6f">
-        <dex dex="/Users/yuchi/Desktop/IssuePro/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_d368bb18f8239ffa5a2902840c21d20621ed3a82/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/yuchi/Desktop/IssuePro/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/24.0.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="8dd49930e4f9dde1a42d37e362b9fea8b1b69c0d">
-        <dex dex="/Users/yuchi/Desktop/IssuePro/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-cardview-v7-24.0.0_051708a3073885181dfdc774c2ce73b0613e7076/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/yuchi/Desktop/android-issue/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/24.0.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="8dd49930e4f9dde1a42d37e362b9fea8b1b69c0d">
-        <dex dex="/Users/yuchi/Desktop/android-issue/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-cardview-v7-24.0.0_085770b2ad67bd52a4adbe29910741c8116f9227/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/yuchi/Desktop/IssuePro/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="b2cbecb75195c13fdf4907f87ce1155824792bd2">
-        <dex dex="/Users/yuchi/Desktop/IssuePro/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_5b315ec7a81dccb2a39ebedf4c853c3e99095c12/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/yuchi/Desktop/android-issue/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.0/jars/libs/internal_impl-24.1.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="8c7087216946c546f85a1242a2794c0f271e092c">
-        <dex dex="/Users/yuchi/Desktop/android-issue/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.1.0_fc68a8fd530e3dfd6fe316a684d1bb62a52e9ed1/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/yuchi/Desktop/IssuePro/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.1.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="ba8e8860f7e033c3a503b682337a4bafdf56e6ee">
-        <dex dex="/Users/yuchi/Desktop/IssuePro/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-24.1.0_04048feb05cb1bfe45f3c00c6e111578203cbd38/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/yuchi/Desktop/IssuePro/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="e096a5d8343cc9c5a9f6eded36bd0f4c82f8c83e">
-        <dex dex="/Users/yuchi/Desktop/IssuePro/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-24.1.0_0b0785612865694f851cef9283a56275b115609a/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/yuchi/Desktop/android-issue/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.1.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="ba8e8860f7e033c3a503b682337a4bafdf56e6ee">
-        <dex dex="/Users/yuchi/Desktop/android-issue/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-24.1.0_387d2aacb505265f3204d663bc85da0c4aa613d7/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/yuchi/Desktop/IssuePro/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="9340c4f95a4e3916c9ad70296e24576743743712">
-        <dex dex="/Users/yuchi/Desktop/IssuePro/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-24.1.0_3ae67de52be462f0967525391ab42324795ac507/classes.dex" />
+        <dex dex="/Users/yuchi/Desktop/android-issue/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-24.1.0_540f2d6879342a59f8b3e775fa37f278c3a0f3db/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -183,12 +30,75 @@
     </item>
     <item
         is-multidex="true"
-        jar="/Users/yuchi/Desktop/IssuePro/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.1.0/jars/classes.jar"
+        jar="/Users/yuchi/Desktop/android-issue/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6518d090aab7fd06ea6e286a9940a31913d81fd8">
+        <dex dex="/Users/yuchi/Desktop/android-issue/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_654f4ca0727cbdaeae3779f8ee4a6a764ffb8327/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/yuchi/Desktop/android-issue/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e096a5d8343cc9c5a9f6eded36bd0f4c82f8c83e">
+        <dex dex="/Users/yuchi/Desktop/android-issue/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-24.1.0_cddc437177969a77c23955f3cb9ec7e5fd8884e0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/yuchi/Desktop/android-issue/app/build/intermediates/exploded-aar/com.android.support/design/24.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8620c018c108eed501bbdb85324b79136373ea44">
+        <dex dex="/Users/yuchi/Desktop/android-issue/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-24.1.0_16b2ee442a4474765b3f1beab5c6857eb7036aeb/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/yuchi/Desktop/android-issue/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7a8f9413a0680aea21261de8992a5a2dac1dc062">
+        <dex dex="/Users/yuchi/Desktop/android-issue/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_a86fb8e6b2f32c66e6f7f4802bbb3937fe9f9ce7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/yuchi/Desktop/android-issue/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.1.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="8c854b30eca6c442fe842e66cd3b58c5dd08996f">
-        <dex dex="/Users/yuchi/Desktop/IssuePro/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-24.1.0_bbcd05454e905814d649c0748a07abf1ca4ed22b/classes.dex" />
+        <dex dex="/Users/yuchi/Desktop/android-issue/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-24.1.0_b43b30252cd1cb87512666f736d7a5c03ab0df60/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/yuchi/Desktop/android-issue/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/24.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8dd49930e4f9dde1a42d37e362b9fea8b1b69c0d">
+        <dex dex="/Users/yuchi/Desktop/android-issue/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-cardview-v7-24.0.0_085770b2ad67bd52a4adbe29910741c8116f9227/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/yuchi/Desktop/android-issue/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.0/jars/libs/internal_impl-24.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8c7087216946c546f85a1242a2794c0f271e092c">
+        <dex dex="/Users/yuchi/Desktop/android-issue/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.1.0_fc68a8fd530e3dfd6fe316a684d1bb62a52e9ed1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/yuchi/Desktop/android-issue/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ba8e8860f7e033c3a503b682337a4bafdf56e6ee">
+        <dex dex="/Users/yuchi/Desktop/android-issue/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-24.1.0_387d2aacb505265f3204d663bc85da0c4aa613d7/classes.dex" />
     </item>
 
 </items>
