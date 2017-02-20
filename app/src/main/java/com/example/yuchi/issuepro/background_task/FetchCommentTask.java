@@ -4,64 +4,67 @@ import android.content.Context;
 import android.net.Uri;
 import android.os.AsyncTask;
 import android.support.annotation.NonNull;
+import android.support.v4.app.FragmentManager;
+import android.support.v4.app.FragmentTransaction;
 import android.widget.Toast;
 
-import com.example.yuchi.issuepro.IssueUpdateCallback;
 import com.example.yuchi.issuepro.R;
 import com.example.yuchi.issuepro.client.IssueSearcher;
 import com.example.yuchi.issuepro.client.Response;
-import com.example.yuchi.issuepro.issue.IssueController;
+import com.example.yuchi.issuepro.comment.CommentDialog;
+import com.example.yuchi.issuepro.model.Comment;
 import com.example.yuchi.issuepro.model.Issue;
 
 import org.json.JSONArray;
+import org.json.JSONException;
 import org.json.JSONObject;
 
 import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.URL;
-import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
-import java.util.Date;
 import java.util.List;
-import java.util.TimeZone;
 
 /**
- * AsyncTask for fetch open issues.
+ * AsyncTask for fetch comments.
  */
-public class FetchIssueTask extends AsyncTask<String, Void, Response> {
+public class FetchCommentTask extends AsyncTask<String, Void, Response> {
 
-    private static final int LIMIT_OF_CHARS = 140;
-    @NonNull private static final String SCHEME = "https";
+    @NonNull
+    private static final String SCHEME = "https";
     @NonNull private static final String HOST = "api.github.com";
     @NonNull private static final String URL = "repos/rails/rails/issues";
-    @NonNull private static final String STATE_PARAM = "state";
-    @NonNull private static final String STATE = "open";
 
     @NonNull private final List<Issue> issueList = new ArrayList<>();
-    @NonNull private final IssueUpdateCallback callback;
     @NonNull private final Context context;
+    @NonNull private final FragmentManager fragmentManager;
     @NonNull private final IssueSearcher issueSearcher;
+    @NonNull private final ArrayList<Comment> commentList;
 
-    public FetchIssueTask(@NonNull Context context, @NonNull IssueUpdateCallback callback) {
+    public FetchCommentTask(@NonNull Context context, @NonNull FragmentManager fragmentManager) {
         this.context = context;
-        this.callback = callback;
-
+        this.fragmentManager = fragmentManager;
         this.issueSearcher = new IssueSearcher();
+
+        this.commentList = new ArrayList<>();
     }
 
     @Override
     @NonNull
     protected Response doInBackground(String... params) {
+        String issueId = params[0];
+
         Uri uri = new Uri.Builder()
                 .scheme(SCHEME)
                 .authority(HOST)
                 .path(URL)
-                .appendQueryParameter(STATE_PARAM, STATE)
+                .appendPath(issueId)
+                .appendPath("comments")
                 .build();
 
-        URL url = null;
+        java.net.URL url = null;
         try {
             url = new URL(uri.toString());
         } catch (MalformedURLException e) {
@@ -79,50 +82,42 @@ public class FetchIssueTask extends AsyncTask<String, Void, Response> {
         }
 
         JSONArray json = response.getJsonArray();
-        parseIssueData(json);
+        parseComments(json);
         Collections.sort(issueList, new Comparator<Issue>() {
             @Override
             public int compare(Issue i1, Issue i2) {
-                return i2.getUpdatedAt() ==  null
+                return i2.getUpdatedAt() == null
                         ? 0 : i2.getUpdatedAt().compareTo(i1.getUpdatedAt());
-            }});
+            }
+        });
 
-        // update the issue view
-        callback.updateIssueList(issueList);
+        parseComments(json);
+        showCommentsForIssueDialog();
     }
 
-    private void parseIssueData(@NonNull JSONArray jsonArrayResponse) {
-        issueList.clear();
+    private void parseComments(@NonNull JSONArray jsonArrayResponse) {
+        commentList.clear();
         for (int i = 0; i < jsonArrayResponse.length(); i++) {
             try {
                 JSONObject jsonObject = jsonArrayResponse.getJSONObject(i);
-                String title = jsonObject.getString("title");
+                String user = jsonObject.getJSONObject("user").getString("login");
                 String body = jsonObject.getString("body");
-                String updatedAt = jsonObject.getString("updated_at");
-                int numOfComment = jsonObject.getInt("comments");
-                int issueId = jsonObject.getInt("number");
 
-                SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss'Z'");
-                sdf.setTimeZone(TimeZone.getTimeZone("UTC"));
-                Date date = sdf.parse(updatedAt);
-
-                if (!body.isEmpty() && body.length() > LIMIT_OF_CHARS) {
-                    body = body.substring(0, LIMIT_OF_CHARS) + "...";
-                } else {
-                    body = "";
-                }
-
-                Issue issue = new Issue.Builder()
-                        .title(title)
+                Comment comment = new Comment.Builder()
                         .body(body)
-                        .updateAt(date)
-                        .issueId(issueId)
+                        .user(user)
                         .build();
-
-                issueList.add(issue);
-            } catch (Exception e) {
-                Toast.makeText(context, context.getString(R.string.error), Toast.LENGTH_LONG).show();
+                commentList.add(comment);
+            } catch (JSONException e) {
+                Toast.makeText(context, context.getString(R.string.error),
+                        Toast.LENGTH_LONG).show();
             }
         }
+    }
+
+    private void showCommentsForIssueDialog() {
+        FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
+        CommentDialog commentDialog = CommentDialog.newInstance(commentList);
+        commentDialog.show(fragmentTransaction, "CommentDialog");
     }
 }
