@@ -3,6 +3,24 @@
 
     <item
         is-multidex="true"
+        jar="/Users/yuchi/Desktop/android-issue/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="77c2ee9d0edb306be11aba641fb6dd0fb0c8ddb1">
+        <dex dex="/Users/yuchi/Desktop/android-issue/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_654f4ca0727cbdaeae3779f8ee4a6a764ffb8327/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/yuchi/Desktop/android-issue/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e096a5d8343cc9c5a9f6eded36bd0f4c82f8c83e">
+        <dex dex="/Users/yuchi/Desktop/android-issue/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-24.1.0_cddc437177969a77c23955f3cb9ec7e5fd8884e0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/Users/yuchi/Desktop/android-issue/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
@@ -21,33 +39,6 @@
     </item>
     <item
         is-multidex="true"
-        jar="/Users/yuchi/Desktop/android-issue/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/24.1.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="4157816e81f0820983957687e9a6f4c1cea0f1e5">
-        <dex dex="/Users/yuchi/Desktop/android-issue/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-24.1.0_9a4f8c2d732693cacc2298bcab40b0ff5f3707e2/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/yuchi/Desktop/android-issue/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="6518d090aab7fd06ea6e286a9940a31913d81fd8">
-        <dex dex="/Users/yuchi/Desktop/android-issue/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_654f4ca0727cbdaeae3779f8ee4a6a764ffb8327/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/yuchi/Desktop/android-issue/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="e096a5d8343cc9c5a9f6eded36bd0f4c82f8c83e">
-        <dex dex="/Users/yuchi/Desktop/android-issue/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-24.1.0_cddc437177969a77c23955f3cb9ec7e5fd8884e0/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="/Users/yuchi/Desktop/android-issue/app/build/intermediates/exploded-aar/com.android.support/design/24.1.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
@@ -61,7 +52,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="7a8f9413a0680aea21261de8992a5a2dac1dc062">
+        sha1="8a8bdef4407e5975c70b703e975f8e23382a872f">
         <dex dex="/Users/yuchi/Desktop/android-issue/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_a86fb8e6b2f32c66e6f7f4802bbb3937fe9f9ce7/classes.dex" />
     </item>
     <item
@@ -99,6 +90,15 @@
         revision="25.0.2"
         sha1="ba8e8860f7e033c3a503b682337a4bafdf56e6ee">
         <dex dex="/Users/yuchi/Desktop/android-issue/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-24.1.0_387d2aacb505265f3204d663bc85da0c4aa613d7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/yuchi/Desktop/android-issue/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/24.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4157816e81f0820983957687e9a6f4c1cea0f1e5">
+        <dex dex="/Users/yuchi/Desktop/android-issue/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-24.1.0_9a4f8c2d732693cacc2298bcab40b0ff5f3707e2/classes.dex" />
     </item>
 
 </items>
